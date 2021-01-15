@@ -1,0 +1,57 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+tbody th {
+    font-style: italic;
+}
+
+tbody tr th {
+    font-weight: normal;
+}
+
+tbody tr:nth-of-type(odd) {
+    background: greenyellow;
+}
+
+tbody tr:nth-of-type(even) {
+    background: lightblue;
+}
+
+footer {
+    font-style: normal;
+}
+
+.outter-content {
+    background-color: pink;
+    float: left;
+    margin: auto;
+    width: 75%;
+    padding-top: 20px
+}
+
+.inner-content {
+    background-color: blue;
+    text-align: center;
+    margin: auto;
+    width: 75%;
+}
+
+#get-form {
+    clear: left;
+}
+
+#nr_input {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px 5px 5px 5px; 
+}
+
+#radio-form {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 5px 5px 5px 5px;
+}
+
